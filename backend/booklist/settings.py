@@ -17,6 +17,7 @@ ALLOWED_HOSTS = [ ]
 
 INSTALLED_APPS = [
     'django.contrib.admin', 
+    'ckeditor',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -25,6 +26,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'account',
+    'authors',
 ]
 
 MIDDLEWARE = [
