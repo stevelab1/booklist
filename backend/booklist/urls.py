@@ -12,7 +12,7 @@ urlpatterns = [
     path('api/account/', include('account.urls')),
     path('api/authors/', include('authors.urls')),
     path('api/books/', include('books.urls')),
-    # path('api/contacts/', include('contacts.urls')),
+    path('api/contacts/', include('contacts.urls')),
     path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
